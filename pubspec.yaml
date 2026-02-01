@@ -1,0 +1,68 @@
+name: smartbin
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  firebase_core: ^3.8.1              # ✅ Latest stable
+  firebase_database: ^11.3.3         # ✅ Compatible with core 3.x
+  # flutter_local_notifications: 16.2.0 # broken package
+  # awesome_notifications: ^0.9.3
+  # awesome_notifications: ^0.9.3+1  # Update to latest version
+  # flutter_local_notifications: ^17.0.0
+  mailer: ^6.0.1
+
+  firebase_messaging: ^15.1.5        # ✅ Updated to match core 3.x
+  flutter_local_notifications: ^17.2.3  # Latest stable version
+
+  flutter_launcher_icons: ^0.14.3
+
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icon/smartbin-icon.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/smartbin-icon.png" # Path to your icon
+  adaptive_icon_background: "#FFFFFF" # Background color for Android adaptive icon
+  adaptive_icon_foreground: "assets/icon/smartbin-icon.png" # Optional for Android adaptive icons
+
+# flutter_icons:
+#   android: true
+#   ios: true
+#   image_path: "assets/icon/smartbin-icon.png"
+#   adaptive_icon_background: "#FFFFFF"
+#   adaptive_icon_foreground: "assets/icon/smartbin-icon.png"

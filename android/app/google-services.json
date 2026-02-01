@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "870815780878",
+    "firebase_url": "https://trashhbin-iot-default-rtdb.firebaseio.com",
+    "project_id": "trashhbin-iot",
+    "storage_bucket": "trashhbin-iot.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870815780878:android:350831ed4b3de1245aec5f",
+        "android_client_info": {
+          "package_name": "com.example.trashbin_iot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASk5nDXw9SUJoGgnaTlN0ubcMAWdCTCyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
